@@ -2,7 +2,7 @@
 
 The TextShare Tool is an easy-to-use and well-designed web application that enhances your text-sharing experience. Built using pure JavaScript, this tool provides an intuitive way to share selected text snippets seamlessly. Whether you want to share insights or attention-worthy quotes, TextShare has you covered. Its elegant design, inspired by popular sharing platforms, offers a smooth user interface. To share any text, simply select it, and a custom menu with a Twitter sharing button appears. Just click the button, and your chosen text is ready to be tweeted. With a focus on simplicity and visual appeal, the TextShare Tool makes sharing on the web effortless. 🚀
 
-## Site is Live:
+## Site is Live: https://ankur-rai-19.github.io/Sharing-Text-Tool/
 
 ## SOME SCREENSHOTS: 
 
