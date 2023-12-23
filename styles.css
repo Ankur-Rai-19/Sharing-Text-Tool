@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/*-----Text Container------*/
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #504999, #596af6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-box {
+    background: #fff;
+    padding: 50px;
+    width: 90%;
+    max-width: 600px;
+}
+.text-box h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.text-box p {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+p::selection {
+    background: #fae88e;
+}
+h1::selection {
+    background: #fae88e;
+}
+
+/*-----Share Btn------*/
+#share-menu {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    border-radius: 4px;
+    z-index: 999;
+}
+#share-menu button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#share-menu button:hover {
+    background-color: #0d86c9;
+}
+
+/* Developer Name */
+#dev-name {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #666;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
